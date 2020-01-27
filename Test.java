@@ -4,10 +4,11 @@ public class Test {
 	    int arr[]= {1,2,4,9,10,13};
 	    int l=0;
 	    int h=arr.length-1;
+	    int k=9;
 	    int ans=0;
 	    while(l<=h){
 	     int mid=(l+h)/2;
-	            if(arr[mid]>9){
+	            if(arr[mid]>k){
 	                h=mid-1;
 	            }else{
 	            	ans=arr[mid];
