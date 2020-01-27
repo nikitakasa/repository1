@@ -16,7 +16,8 @@ public class Test {
 	            }
 	        }
 	      System.out.println(ans);
-	    	
+	 	//floor is printed
+		System.out.println("floor");
 	    }
 	}
 
